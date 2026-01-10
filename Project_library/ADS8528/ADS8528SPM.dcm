@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS8528SPM
+D 12-Bit, 8-Channel, Simultaneous Sampling, Bipolar Input ADC
+K
+F http://www.ti.com/lit/gpn/ads8528
+$ENDCMP
+#
+#End Doc Library

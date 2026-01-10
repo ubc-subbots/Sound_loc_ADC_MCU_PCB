@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADS8528")(type "KiCad")(uri "${KIPRJMOD}/Project_library/ADS8528/ADS8528.pretty")(options "")(descr "ADS8528"))
+)
