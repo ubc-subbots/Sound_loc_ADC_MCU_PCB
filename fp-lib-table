@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "ADS8528")(type "KiCad")(uri "${KIPRJMOD}/Project_library/ADS8528/ADS8528.pretty")(options "")(descr "ADS8528"))
+  (lib (name "STM32H7_knockoff")(type "KiCad")(uri "${KIPRJMOD}/Project_library/STM32H7_knockoff/STM32H7_knockoff.pretty")(options "")(descr ""))
+  (lib (name "TESTY")(type "KiCad")(uri "${KIPRJMOD}/Project_library/TESTY/TESTY.pretty")(options "")(descr ""))
 )
