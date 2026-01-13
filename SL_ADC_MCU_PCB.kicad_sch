@@ -1449,6 +1449,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9d93a5-6313-4a26-91f0-d97694c9e424")
+	)
+	(wire
+		(pts
+			(xy 86.36 128.27) (xy 121.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e12bad3-a5bf-4646-80d1-109f03c8e7d6")
+	)
+	(wire
+		(pts
+			(xy 86.36 132.08) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621db91c-e925-41be-87d9-6577129fa475")
+	)
+	(wire
+		(pts
+			(xy 121.92 128.27) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4ef065-66b5-4573-b486-2ed8dfeb6fa8")
+	)
 	(symbol
 		(lib_id "ADS8528:ADS8528SPM")
 		(at 114.3 45.72 0)
@@ -1777,16 +1817,16 @@
 	)
 	(symbol
 		(lib_id "TESTY:TESTY")
-		(at 77.47 125.73 0)
+		(at 86.36 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ef0f752-0f33-40af-9601-7ee9437291dd")
+		(uuid "3dc5380f-e56a-4380-8625-c66b6a8f97e0")
 		(property "Reference" "TTT1"
-			(at 64.77 107.95 0)
+			(at 73.66 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1834,7 @@
 			)
 		)
 		(property "Value" "JOOB"
-			(at 64.77 110.49 0)
+			(at 73.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" "TESTY:TESTY"
-			(at 77.47 125.73 0)
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 125.73 0)
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 125.73 0)
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,20 +1868,20 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2cff2469-3519-4868-821b-7f6fcfa9ce41")
-		)
 		(pin "5"
-			(uuid "c836830c-2bc4-43fc-a656-b956cb59af4f")
+			(uuid "a9d08e92-ba2e-45fc-9773-bd79c46ab4d0")
 		)
-		(pin "1"
-			(uuid "c8815774-5cdc-42f9-9280-bf2bf4fe3e22")
-		)
-		(pin "3"
-			(uuid "d437752d-5f75-46fb-ba34-c053e957fd6e")
+		(pin "2"
+			(uuid "fb67c272-2cc1-4ad3-86ae-591d27dc7184")
 		)
 		(pin "4"
-			(uuid "f3fd1091-a7dc-4272-ae1e-658fdffb8574")
+			(uuid "74b3a4ee-12eb-4bf1-b1c6-9012c2eafb8f")
+		)
+		(pin "1"
+			(uuid "0d6fcc1f-fa63-4e7f-9131-abf876128bc3")
+		)
+		(pin "3"
+			(uuid "5f8e38c6-0c19-4d43-bb7a-2f263f55e9eb")
 		)
 		(instances
 			(project ""
