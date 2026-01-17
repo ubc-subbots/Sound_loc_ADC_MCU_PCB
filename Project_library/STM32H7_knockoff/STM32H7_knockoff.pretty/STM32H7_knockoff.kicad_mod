@@ -1392,7 +1392,7 @@
 		(remove_unused_layers no)
 		(uuid "7c078eaa-f942-4b6a-91ca-0ae1c1225c6d")
 	)
-	(pad "5V12" thru_hole circle
+	(pad "5V2" thru_hole circle
 		(at 0 0)
 		(size 1.6 1.6)
 		(drill 1)
