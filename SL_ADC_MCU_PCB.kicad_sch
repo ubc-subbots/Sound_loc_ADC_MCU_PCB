@@ -1293,9 +1293,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "ADC decoupling capacitors\n"
+		(exclude_from_sim no)
+		(at 197.358 23.368 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "48519bab-a2cb-48b3-bd62-abd4b277f847")
+	)
+	(text "Reference capacitors"
+		(exclude_from_sim no)
+		(at 237.49 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50624a4f-7102-4bb4-bc01-67a8d74134db")
+	)
+	(text "ADC"
+		(exclude_from_sim no)
+		(at 45.466 31.242 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "8fea7c95-5092-48b6-be2c-645ebf85bb0e")
+	)
+	(text "Capacitors for AVDD to AGND. One for each of the 8 AVDD pins\n"
+		(exclude_from_sim no)
+		(at 174.752 37.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dde0b04c-f3b4-46c3-9bdd-070b4d90a675")
+	)
+	(text "Note to self to put comments meentioning which pin the different caps go to\n"
+		(exclude_from_sim no)
+		(at 182.626 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de49f5d2-858e-4c73-9aeb-779def494759")
+	)
+	(polyline
+		(pts
+			(xy 135.89 11.43) (xy 136.525 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25010cac-ff13-4fd1-a8f9-51432d5c2f7e")
+	)
+	(polyline
+		(pts
+			(xy 135.89 161.29) (xy 135.89 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ede96f2-8e35-4b34-b22b-e4b497caa8bd")
+	)
+	(polyline
+		(pts
+			(xy 12.065 161.29) (xy 135.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac415c4a-5d00-4292-98d2-ac3feb3f1938")
 	)
 	(label "DB3"
-		(at 154.94 111.76 270)
+		(at 86.36 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1305,7 +1524,7 @@
 		(uuid "0339c007-445b-4895-8d69-38880eed3448")
 	)
 	(label "REFAP"
-		(at 167.64 58.42 0)
+		(at 99.06 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1315,7 +1534,7 @@
 		(uuid "0384582d-c129-4044-92f7-209c365916cc")
 	)
 	(label "CONVST_D"
-		(at 167.64 66.04 0)
+		(at 99.06 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1325,7 +1544,7 @@
 		(uuid "05082dfc-af49-405e-8422-c8e9dcb6dfbb")
 	)
 	(label "REFDP"
-		(at 114.3 58.42 180)
+		(at 45.72 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1334,8 +1553,18 @@
 		)
 		(uuid "068a2c46-04fc-43be-81b4-dd4d56250dd6")
 	)
+	(label "AVDD"
+		(at 166.37 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "069a643f-e8f7-4fb5-9e09-4932b8bad0ee")
+	)
 	(label "5V-HVDD"
-		(at 167.64 45.72 0)
+		(at 99.06 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1345,7 +1574,7 @@
 		(uuid "07aca6d5-d878-4175-b5af-857079768a4d")
 	)
 	(label "AVDD"
-		(at 114.3 53.34 180)
+		(at 45.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1355,7 +1584,7 @@
 		(uuid "0836bfb9-1484-408d-82f4-7925881eb70a")
 	)
 	(label "CONVST_C"
-		(at 167.64 68.58 0)
+		(at 99.06 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1364,8 +1593,18 @@
 		)
 		(uuid "088251f8-6f25-4108-a505-bb2b26d2b339")
 	)
+	(label "AVDD"
+		(at 151.13 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e4e99c-6f13-4043-8c44-acd941bece71")
+	)
 	(label "DGND"
-		(at 139.7 111.76 270)
+		(at 71.12 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1375,7 +1614,7 @@
 		(uuid "09d439eb-ab19-4ca1-8932-766793aef826")
 	)
 	(label "~PAR{slash}SER"
-		(at 114.3 63.5 180)
+		(at 45.72 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1385,7 +1624,7 @@
 		(uuid "0c63744d-02b6-4886-82d8-5b262765efe5")
 	)
 	(label "AVDD"
-		(at 129.54 27.94 90)
+		(at 60.96 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +1634,7 @@
 		(uuid "0fc797cd-1df3-4251-bdcd-d0a7b2b1c476")
 	)
 	(label "DB13"
-		(at 124.46 111.76 270)
+		(at 55.88 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,7 +1644,7 @@
 		(uuid "0fe96084-2c8c-4da7-bddc-9e2b719fe975")
 	)
 	(label "REFIO"
-		(at 142.24 27.94 90)
+		(at 73.66 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1415,7 +1654,7 @@
 		(uuid "14489de7-06cf-4bca-ba69-c1a016cbe201")
 	)
 	(label "CH_A1"
-		(at 167.64 48.26 0)
+		(at 99.06 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1425,7 +1664,7 @@
 		(uuid "1ab34916-1349-4fcc-9bf6-729494b27b5d")
 	)
 	(label "DB6"
-		(at 147.32 111.76 270)
+		(at 78.74 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +1674,7 @@
 		(uuid "1b5deb18-339d-4a09-a657-517f23a316f2")
 	)
 	(label "AGND"
-		(at 127 27.94 90)
+		(at 58.42 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,8 +1683,18 @@
 		)
 		(uuid "1cd2f904-7944-4761-bdd7-4b0833dca70c")
 	)
+	(label "AVDD"
+		(at 151.13 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "203fb148-5242-4db6-a476-7622b5417de9")
+	)
 	(label "~HW{slash}SW"
-		(at 167.64 63.5 0)
+		(at 99.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1454,8 +1703,28 @@
 		)
 		(uuid "23e2fc69-01d0-4c63-b0da-1ad3140fc7fc")
 	)
+	(label "AVDD"
+		(at 181.61 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2521475f-81bc-4a48-9173-e3c88ee526a8")
+	)
+	(label "AGND"
+		(at 165.1 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "281fca78-38bc-4ba9-947d-5a11a3395359")
+	)
 	(label "DB2"
-		(at 157.48 111.76 270)
+		(at 88.9 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1465,7 +1734,7 @@
 		(uuid "28f6ebef-31d3-4131-b510-4efb55721ec7")
 	)
 	(label "~STBY"
-		(at 114.3 66.04 180)
+		(at 45.72 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1475,7 +1744,7 @@
 		(uuid "2a56b5a4-cbbc-4b7c-ae7f-69ba3b285fda")
 	)
 	(label "CH_D0"
-		(at 114.3 60.96 180)
+		(at 45.72 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,7 +1754,7 @@
 		(uuid "2d90a2ca-b150-4107-b9bf-b813e0670baa")
 	)
 	(label "DB14"
-		(at 121.92 111.76 270)
+		(at 53.34 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1495,7 +1764,7 @@
 		(uuid "31ad2919-e695-40c0-afa7-fcdb9ff9d59a")
 	)
 	(label "DB5"
-		(at 149.86 111.76 270)
+		(at 81.28 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1505,7 +1774,7 @@
 		(uuid "34277b64-1293-448c-9abf-d15d6e17be43")
 	)
 	(label "AGND"
-		(at 114.3 81.28 180)
+		(at 45.72 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,7 +1784,7 @@
 		(uuid "3461a32d-4a98-44dd-abfe-b7315d4fe807")
 	)
 	(label "REFBP"
-		(at 157.48 27.94 90)
+		(at 88.9 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1525,7 +1794,7 @@
 		(uuid "356916a6-7e28-46d8-b08c-6628396c182d")
 	)
 	(label "DB1"
-		(at 160.02 111.76 270)
+		(at 91.44 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1535,7 +1804,7 @@
 		(uuid "3676cd3c-3879-4ac1-8fc7-2a32bed0d0c7")
 	)
 	(label "AGND"
-		(at 114.3 55.88 180)
+		(at 45.72 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1544,8 +1813,18 @@
 		)
 		(uuid "3a352d3b-8418-46ba-9dba-443c4e856bff")
 	)
+	(label "AVDD"
+		(at 181.61 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b590c1f-045f-452f-81d8-221836d490b4")
+	)
 	(label "ASLEEP"
-		(at 167.64 76.2 0)
+		(at 99.06 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1555,7 +1834,7 @@
 		(uuid "3c5eb4b6-9716-4197-a45b-4dc0f4dcb018")
 	)
 	(label "DB8"
-		(at 137.16 111.76 270)
+		(at 68.58 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1565,7 +1844,7 @@
 		(uuid "3cc42b10-9004-4ee7-9d14-7dda4a9cbccd")
 	)
 	(label "REFCN"
-		(at 132.08 27.94 90)
+		(at 63.5 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1575,7 +1854,7 @@
 		(uuid "47553de5-8974-493f-91a1-239471b72f1c")
 	)
 	(label "CH_B1"
-		(at 147.32 27.94 90)
+		(at 78.74 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1585,7 +1864,7 @@
 		(uuid "4a14a788-303f-4346-ab41-666ce89681d0")
 	)
 	(label "~RD"
-		(at 114.3 73.66 180)
+		(at 45.72 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1595,7 +1874,7 @@
 		(uuid "4d32cf3d-f993-47cd-ab05-4041e7c5b436")
 	)
 	(label "DB10"
-		(at 132.08 111.76 270)
+		(at 63.5 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1605,7 +1884,7 @@
 		(uuid "4f3e04d2-9094-4a9e-b774-7075d17df990")
 	)
 	(label "REFBN"
-		(at 149.86 27.94 90)
+		(at 81.28 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1614,8 +1893,18 @@
 		)
 		(uuid "51296ae0-4443-47c0-808b-a479a2ff50c3")
 	)
+	(label "AGND"
+		(at 151.13 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5240a434-239b-4057-92e4-30af13e89300")
+	)
 	(label "AVDD"
-		(at 152.4 27.94 90)
+		(at 83.82 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1625,7 +1914,7 @@
 		(uuid "579d87fd-8e48-415d-81be-593fb2cc1230")
 	)
 	(label "REFDN"
-		(at 114.3 50.8 180)
+		(at 45.72 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1635,7 +1924,7 @@
 		(uuid "57bd01ff-4e35-4509-81d1-86dcf7cfd68b")
 	)
 	(label "CH_C1"
-		(at 134.62 27.94 90)
+		(at 66.04 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1645,7 +1934,7 @@
 		(uuid "5899145b-82cd-457d-ab5b-4a96528b0f86")
 	)
 	(label "DB12"
-		(at 127 111.76 270)
+		(at 58.42 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1654,8 +1943,28 @@
 		)
 		(uuid "62bcfda8-f932-4f56-9071-7d9e241aed00")
 	)
+	(label "AVDD"
+		(at 166.37 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63087ef7-9c15-407f-9927-7b092ef64a66")
+	)
+	(label "AGND"
+		(at 166.37 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66507edd-0dee-4ad7-b0f6-0690d399c903")
+	)
 	(label "~CS{slash}~FS"
-		(at 114.3 76.2 180)
+		(at 45.72 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1664,8 +1973,28 @@
 		)
 		(uuid "698e735d-53f4-4585-8599-b9c2a1e93592")
 	)
+	(label "AGND"
+		(at 181.61 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6faaa12f-1b27-4716-944c-996f47768150")
+	)
+	(label "AVDD"
+		(at 165.1 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78dd03ad-a300-4b42-aee0-3f0968e011f5")
+	)
 	(label "DB15"
-		(at 114.3 83.82 180)
+		(at 45.72 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +2004,7 @@
 		(uuid "7a120ebd-4ba7-4bf7-9867-d63f987636b1")
 	)
 	(label "AVDD"
-		(at 167.64 53.34 0)
+		(at 99.06 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1685,7 +2014,7 @@
 		(uuid "7ac4c5d3-976f-438e-926e-2ac96ced7f8a")
 	)
 	(label "CH_C0"
-		(at 121.92 27.94 90)
+		(at 53.34 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1695,7 +2024,7 @@
 		(uuid "7bdb3a0b-e0a5-4b8c-b48b-2015b010c41a")
 	)
 	(label "CONVST_A"
-		(at 167.64 73.66 0)
+		(at 99.06 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1705,7 +2034,7 @@
 		(uuid "8299545c-3b54-4c89-a4a7-9bd99db945c3")
 	)
 	(label "DB4"
-		(at 152.4 111.76 270)
+		(at 83.82 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1715,7 +2044,7 @@
 		(uuid "87cef36d-f556-4e77-8d1d-ba2a5c5e9b51")
 	)
 	(label "AGND"
-		(at 137.16 27.94 90)
+		(at 68.58 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1725,7 +2054,7 @@
 		(uuid "89239ea1-0d06-4ee9-86f1-1c02703edad4")
 	)
 	(label "CH_C1"
-		(at 124.46 27.94 90)
+		(at 55.88 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1734,8 +2063,18 @@
 		)
 		(uuid "89ad8bc0-f4e6-4bb2-a7f1-8d0b903d6d6a")
 	)
+	(label "AGND"
+		(at 181.61 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aaf2a75-c8da-4c56-8a96-f512cc510458")
+	)
 	(label "CH_A0"
-		(at 167.64 60.96 0)
+		(at 99.06 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,7 +2084,7 @@
 		(uuid "8c4c1942-5961-474f-99f4-30a80c841705")
 	)
 	(label "RESET"
-		(at 114.3 68.58 180)
+		(at 45.72 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,7 +2094,7 @@
 		(uuid "8ca0261b-d569-43de-b52e-bdbaf69a51ea")
 	)
 	(label "RANGE{slash}XCLK"
-		(at 167.64 81.28 0)
+		(at 99.06 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,8 +2103,18 @@
 		)
 		(uuid "92841aec-207c-4de2-bd30-f2eca1028973")
 	)
+	(label "AGND"
+		(at 166.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9874404a-255f-4691-9ada-3d98a0eb3b45")
+	)
 	(label "REFAN"
-		(at 167.64 50.8 0)
+		(at 99.06 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1774,8 +2123,18 @@
 		)
 		(uuid "994ef5fc-06b7-4225-a233-62a4e5eec7b5")
 	)
+	(label "AVDD"
+		(at 151.13 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c1eb1cf-9ea8-4a5a-9b5c-e4aef1a10b88")
+	)
 	(label "-5V-HVSS"
-		(at 114.3 45.72 180)
+		(at 45.72 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1785,7 +2144,7 @@
 		(uuid "9fb28745-83c0-4c1f-a447-208ac4eb65a0")
 	)
 	(label "AVDD"
-		(at 139.7 27.94 90)
+		(at 71.12 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1795,7 +2154,7 @@
 		(uuid "9fb8afb5-7e99-41a2-80d6-07c8dc54afc0")
 	)
 	(label "BUSY{slash}INT"
-		(at 167.64 78.74 0)
+		(at 99.06 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1805,7 +2164,7 @@
 		(uuid "a30cca71-ef5c-4712-bd22-467a4d0b9609")
 	)
 	(label "DVDD"
-		(at 142.24 111.76 270)
+		(at 73.66 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1815,7 +2174,7 @@
 		(uuid "a354784b-eadf-4b11-83d5-6ba798c9edf7")
 	)
 	(label "DB7"
-		(at 144.78 111.76 270)
+		(at 76.2 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1825,7 +2184,7 @@
 		(uuid "a8f24773-777c-4921-8230-495b2a9d9525")
 	)
 	(label "AGND"
-		(at 154.94 27.94 90)
+		(at 86.36 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1835,7 +2194,7 @@
 		(uuid "abeaf476-8f8c-4293-b687-818eb5bff076")
 	)
 	(label "CONVST_B"
-		(at 167.64 71.12 0)
+		(at 99.06 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1845,7 +2204,7 @@
 		(uuid "b257df9b-e8ad-441a-bab4-c1c1a141066e")
 	)
 	(label "DB11"
-		(at 129.54 111.76 270)
+		(at 60.96 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1855,7 +2214,7 @@
 		(uuid "b88be197-b3f0-4def-a66a-f8e03493d7dc")
 	)
 	(label "DB9"
-		(at 134.62 111.76 270)
+		(at 66.04 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1865,7 +2224,7 @@
 		(uuid "bbca27c5-cd9f-4a4e-8c16-ab252fced4a0")
 	)
 	(label "REFEN{slash}~WR"
-		(at 114.3 71.12 180)
+		(at 45.72 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,8 +2233,18 @@
 		)
 		(uuid "bcd5ada3-44f7-4792-81b7-4b1505423266")
 	)
+	(label "AGND"
+		(at 151.13 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2343756-a590-4534-bbe8-d7768af6f2aa")
+	)
 	(label "REFN"
-		(at 144.78 27.94 90)
+		(at 76.2 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1885,7 +2254,7 @@
 		(uuid "d9958f4a-fa47-4c60-bcb2-baf4aabd98c0")
 	)
 	(label "DB0"
-		(at 167.64 83.82 0)
+		(at 99.06 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1895,7 +2264,7 @@
 		(uuid "e0356087-37b4-4d73-bf35-a72344e9daa7")
 	)
 	(label "AGND"
-		(at 167.64 55.88 0)
+		(at 99.06 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,8 +2273,18 @@
 		)
 		(uuid "e25bce15-7ce5-4e27-ac2a-45facfee86c6")
 	)
+	(label "AGND"
+		(at 151.13 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3839f6e-24c3-403e-aeb1-dcfc8ae32952")
+	)
 	(label "AVDD"
-		(at 114.3 78.74 180)
+		(at 45.72 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1915,7 +2294,7 @@
 		(uuid "e6e300c3-a381-4cd8-81dc-d5476e121808")
 	)
 	(label "CH_D1"
-		(at 114.3 48.26 180)
+		(at 45.72 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +2304,7 @@
 		(uuid "ee24a1d3-5470-4249-b479-e81acffe0ff6")
 	)
 	(label "CH_B0"
-		(at 160.02 27.94 90)
+		(at 91.44 63.5 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,7 +2315,7 @@
 	)
 	(symbol
 		(lib_id "ADS8528:ADS8528SPM")
-		(at 114.3 45.72 0)
+		(at 45.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1945,7 +2324,7 @@
 		(fields_autoplaced yes)
 		(uuid "10fe605d-49f8-4bb0-81af-d7604d17e0f6")
 		(property "Reference" "IC1"
-			(at 170.18 39.2998 0)
+			(at 101.6 74.8598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2332,7 @@
 			)
 		)
 		(property "Value" "ADS8528SPM"
-			(at 170.18 41.8398 0)
+			(at 101.6 77.3998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" "QFP50P1200X1200X160-64N"
-			(at 163.83 130.48 0)
+			(at 95.25 166.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/ads8528"
-			(at 163.83 230.48 0)
+			(at 95.25 266.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +2360,7 @@
 			)
 		)
 		(property "Description" "12-Bit, 8-Channel, Simultaneous Sampling, Bipolar Input ADC"
-			(at 114.3 45.72 0)
+			(at 45.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +2369,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 163.83 430.48 0)
+			(at 95.25 466.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2379,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 163.83 530.48 0)
+			(at 95.25 566.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2389,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ADS8528SPM"
-			(at 163.83 630.48 0)
+			(at 95.25 666.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2399,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ADS8528SPM"
-			(at 163.83 730.48 0)
+			(at 95.25 766.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2409,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS8528SPM?qs=UlfnwZ2x8nQAjoS9B%252BoIcg%3D%3D"
-			(at 163.83 830.48 0)
+			(at 95.25 866.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2419,7 @@
 			)
 		)
 		(property "Arrow Part Number" "ADS8528SPM"
-			(at 163.83 930.48 0)
+			(at 95.25 966.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2429,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ads8528spm/texas-instruments?region=europe"
-			(at 163.83 1030.48 0)
+			(at 95.25 1066.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,6 +2634,717 @@
 			(project ""
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157135a5-1530-4128-9469-e2f26eea49b0")
+		(property "Reference" "C8"
+			(at 170.18 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 170.18 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 167.3352 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3973bd0-fa69-4e60-a89a-d664c1e73ffb")
+		)
+		(pin "2"
+			(uuid "accda25b-b6e3-47af-abf6-7a6979372447")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dc67d07-e113-4342-a44a-bffa04cabe80")
+		(property "Reference" "C5"
+			(at 170.18 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 170.18 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 167.3352 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 166.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3bf8089-82e5-4666-80cf-dec28c89e5d1")
+		)
+		(pin "2"
+			(uuid "03478673-0cad-4711-917c-68e7e66a0c6e")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ef2ef6-8447-4c6f-9944-9730e204d598")
+		(property "Reference" "C3"
+			(at 185.42 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 185.42 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 182.5752 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e5a9b10-9093-466e-8099-f1e997c9c2f4")
+		)
+		(pin "2"
+			(uuid "5e2eadb0-8dbe-403a-9e6f-50ea662e36c8")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a404f3e-5828-46b8-96ca-b04c32e2ecea")
+		(property "Reference" "C2"
+			(at 168.91 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 168.91 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 166.0652 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60419591-fe9f-4ea6-993d-4cabebcc2a93")
+		)
+		(pin "2"
+			(uuid "702d624a-5012-4fbe-846a-f66167ddd739")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7276d602-a908-409d-84d8-37927bf5c425")
+		(property "Reference" "C7"
+			(at 154.94 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 154.94 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 152.0952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7b15f3-491d-4655-97e1-06582ca857fd")
+		)
+		(pin "2"
+			(uuid "27707911-4723-405a-888d-0bc7ec182460")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aea340c-daae-4c98-90ee-f6e2127e436d")
+		(property "Reference" "C9"
+			(at 231.14 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 231.14 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 228.2952 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B106KOQNNNE"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8903d085-0b27-47b5-b8c6-f4d0b15fa712")
+		)
+		(pin "2"
+			(uuid "49a96d41-332b-453c-88c9-3a91c446bd46")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "992f76cb-a953-4cbc-aa67-6a472a9d62e3")
+		(property "Reference" "C1"
+			(at 154.94 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 154.94 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 152.0952 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 151.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "760a60ec-9ecf-495e-b778-9767ade8137c")
+		)
+		(pin "2"
+			(uuid "977921c5-8594-456e-b4c0-4d251a94baa4")
+		)
+		(instances
+			(project ""
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3fb4e26-6aea-408b-80f5-742376abb939")
+		(property "Reference" "C6"
+			(at 185.42 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 185.42 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 182.5752 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db79a680-5afd-4649-ad9c-97baa15f64c1")
+		)
+		(pin "2"
+			(uuid "adb8d405-41d6-4aad-b250-893bd5e3a520")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 151.13 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f66aec06-49a3-44ff-8ffd-ceb5ba7c699c")
+		(property "Reference" "C4"
+			(at 154.94 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 154.94 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 152.0952 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2c5b72-eeaf-4583-92d1-6e3d2493ad10")
+		)
+		(pin "2"
+			(uuid "9ef2f4b9-d152-4c99-9885-00c9b1c7efe2")
+		)
+		(instances
+			(project "SL_ADC_MCU_PCB"
+				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
+					(reference "C4")
 					(unit 1)
 				)
 			)
