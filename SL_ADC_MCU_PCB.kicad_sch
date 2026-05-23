@@ -8086,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185fe3ed-0ca3-4b49-9216-4b14d428f545")
-		(property "Reference" "TP_CONVSTC"
+		(property "Reference" "TP_CONVSTC1"
 			(at 464.82 298.4499 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_CONVSTC")
+					(reference "TP_CONVSTC1")
 					(unit 1)
 				)
 			)
@@ -9957,7 +9957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90bcfefc-1f6c-4603-a5e4-ccd5f23e03bb")
-		(property "Reference" "TP_CONVSTB"
+		(property "Reference" "TP_CONVSTB1"
 			(at 464.82 292.0999 0)
 			(effects
 				(font
@@ -10059,7 +10059,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_CONVSTB")
+					(reference "TP_CONVSTB1")
 					(unit 1)
 				)
 			)
@@ -10154,7 +10154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a490224d-aaae-402e-a582-ca63bc423198")
-		(property "Reference" "TP_WR"
+		(property "Reference" "TP_WR1"
 			(at 464.82 327.2853 0)
 			(effects
 				(font
@@ -10256,7 +10256,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_WR")
+					(reference "TP_WR1")
 					(unit 1)
 				)
 			)
@@ -10418,7 +10418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7350945-a13e-46a0-9798-92cb02ced9ea")
-		(property "Reference" "TP_CONVSTD"
+		(property "Reference" "TP_CONVSTD1"
 			(at 464.82 303.9045 0)
 			(effects
 				(font
@@ -10520,7 +10520,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_CONVSTD")
+					(reference "TP_CONVSTD1")
 					(unit 1)
 				)
 			)
@@ -11245,7 +11245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3f902d-435f-418b-b21e-baad1d37ccca")
-		(property "Reference" "TP_RD"
+		(property "Reference" "TP_RD1"
 			(at 464.82 321.3099 0)
 			(effects
 				(font
@@ -11347,7 +11347,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_RD")
+					(reference "TP_RD1")
 					(unit 1)
 				)
 			)
@@ -11678,7 +11678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaba9d74-6f9a-481f-9d33-95e62b613a92")
-		(property "Reference" "TP_BUSY"
+		(property "Reference" "TP_BUSY1"
 			(at 464.82 333.6353 0)
 			(effects
 				(font
@@ -11780,7 +11780,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_BUSY")
+					(reference "TP_BUSY1")
 					(unit 1)
 				)
 			)
@@ -11796,7 +11796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee1ca77-eab6-4575-8c00-98238cba9b71")
-		(property "Reference" "TP_CONVSTA"
+		(property "Reference" "TP_CONVSTA1"
 			(at 464.82 285.7499 0)
 			(effects
 				(font
@@ -11898,7 +11898,7 @@
 		(instances
 			(project "SL_ADC_MCU_PCB"
 				(path "/3f4eb23c-7a54-403d-a4d1-8d06ed1540f4"
-					(reference "TP_CONVSTA")
+					(reference "TP_CONVSTA1")
 					(unit 1)
 				)
 			)
